@@ -1,0 +1,65 @@
+.ToDOs_main{
+    background-color:cream;
+    display: flex;
+    flex-direction: column;
+
+}
+.Todo{
+    display: flex;
+    justify-content: center;
+}
+/* .create_task{
+    
+   
+} */
+.Forms{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.input{
+    border-radius: 5px;
+    height:30px;
+    padding-left: 5px;
+}
+.btn{
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(50, 50, 202);
+    color: white;
+    font-weight: bold;
+}
+.list_main{
+   padding-left: 20px; 
+    
+}
+.sub-list{
+    
+    display: flex;
+    flex-direction: row;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.list{
+    background-color: gainsboro;
+    padding-left: 5px;
+    width: 410px;
+    height: 30px;
+}
+.delete-btn{
+    border: none;
+    background-color: gainsboro;
+    height: 30px;
+    margin-top: 20px;
+}
+.save-btn{
+    margin-left: 20px;
+}
